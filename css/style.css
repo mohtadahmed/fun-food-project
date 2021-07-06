@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Changa", sans-serif;
+}
+.heading-color {
+  color: gray;
+}
+
+.color-tomato {
+  color: tomato;
+}
+.flex-part {
+  display: flex;
+}
+.top-banner-container {
+  color: gray;
+  margin: 100px auto;
+  width: 95%;
+}
+
+.title-part .title-img-part {
+  text-align: justify;
+}
+.title-section {
+  margin: 70px auto;
+  padding: 20px 50px;
+  width: 80%;
+}
+.title-section h1 {
+  line-height: 95px;
+  font-size: 95px;
+}
+.title-section p {
+  font-size: 22px;
+  width: 80%;
+  margin-bottom: 62px;
+
+  text-align: justify;
+}
+.order-button {
+  text-decoration: none;
+  margin-top: 20px;
+  background: linear-gradient(45deg, #f5af19, #d64131);
+  padding: 15px 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 10px #f5af19;
+}
+
+.title-img-part {
+  margin-right: 150px;
+}
+.about-me-section {
+  background-image: url(/images/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-me-container {
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+}
+.about-me-img,
+.about-me-title {
+  width: 50%;
+  margin: auto 50px;
+  text-align: justify;
+}
+.about-me-img img {
+  height: 700px;
+  margin-top: 75px;
+}
+
+.about-me-title h1 {
+  font-size: 55px;
+}
+.about-me-title p {
+  font-size: 22px;
+  width: 80%;
+  margin-bottom: 62px;
+}
+
+/* My Recipies Section CSS */
+.my-recipies {
+  background-color: white;
+}
+.myrecipies-container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.myrecipies-title {
+  width: 65%;
+  margin: 50px auto;
+}
+.myrecipies-title h1 {
+  font-size: 55px;
+}
+
+.myrecipies-title p {
+  font-size: 22px;
+}
+
+.myrecipies-card {
+  border: 1px solid rgb(255, 250, 240);
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px rgb(143, 143, 143);
+  margin: 30px 50px;
+}
+.card {
+  margin: 30px auto;
+  text-align: justify;
+}
+.myrecipies-card:hover {
+  color: #3b3b98;
+  box-shadow: 10px 10px 40px rgb(143, 143, 143);
+}
+.card-img {
+  text-align: center;
+}
+.card img {
+  height: 440px;
+  width: 380px;
+  border-radius: 40px;
+
+  text-align: center;
+}
+.card h2 {
+  padding: 5px 30px;
+  font-size: 45px;
+}
+.card p {
+  padding: 5px 30px;
+  font-size: 24px;
+}
+
+/* Followers Section CSS */
+.followers-container {
+  width: 75%;
+  margin: 200px auto;
+  text-align: center;
+  border: 1px solid rgb(245, 244, 242);
+  border-radius: 40px;
+  box-shadow: 5px 5px 26px rgba(165, 165, 165, 0.541);
+  display: block;
+}
+
+.follower-card {
+  width: 80%;
+  margin: 40px auto;
+  padding: 10px 50px;
+}
+
+.follower-card-detail {
+  margin: 10px auto;
+}
+
+.subscription-card {
+  margin: 0px auto;
+  text-align: center;
+
+  line-height: 15px;
+}
+.subscription-card h1 {
+  font-size: 75px;
+}
+.subscription-card p {
+  font-size: 20px;
+}
+
+.connected {
+  background-color: #f9faf9;
+  padding: 50px;
+}
+.connection-part {
+  text-align: center;
+}
+.connection-part h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.connection-part input {
+  height: 40px;
+  width: 350px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+.connection-part a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 13px 45px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-family: "Arial Narrow", monospace;
+}
+.line {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.share-part {
+  margin: 50px auto;
+  line-height: 55px;
+}
+
+.invite-button {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 45px;
+  border: 3px solid black;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.footer-section {
+  padding: 20px 10px;
+}
+.footer-section h1 {
+  font-size: 50px;
+  color: #7158e2;
+}
+.footer-section p {
+  font-size: 23px;
+}
