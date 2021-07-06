@@ -53,7 +53,7 @@ body {
   margin-right: 150px;
 }
 .about-me-section {
-  background: url(images/about-me-bg.png);
+  background: url(/images/about-me-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
