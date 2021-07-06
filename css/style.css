@@ -1,3 +1,4 @@
+/* General CSS Starts*/
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +14,10 @@ body {
 .flex-part {
   display: flex;
 }
+
+/* General CSS Ends */
+
+/* Header Section CSS Starts */
 .top-banner-container {
   color: gray;
   margin: 100px auto;
@@ -48,10 +53,17 @@ body {
   border-radius: 30px;
   box-shadow: 6px 6px 10px #f5af19;
 }
+.order-button:hover {
+  box-shadow: 10px 10px 20px #e67e22;
+  color: #2c3a47;
+}
 
 .title-img-part {
   margin-right: 150px;
 }
+/* Header Section CSS Ends */
+
+/* About Me Section CSS Starts */
 .about-me-section {
   background-image: url(../images/about-me-bg.png);
   background-repeat: no-repeat;
@@ -81,8 +93,9 @@ body {
   width: 80%;
   margin-bottom: 62px;
 }
+/* About Me Section CSS Ends */
 
-/* My Recipies Section CSS */
+/* My Recipies Section CSS Starts */
 .my-recipies {
   background-color: white;
 }
@@ -109,6 +122,7 @@ body {
   border-radius: 40px;
   box-shadow: 10px 10px 20px rgb(143, 143, 143);
   margin: 30px 50px;
+  width: 100%;
 }
 .card {
   margin: 30px auto;
@@ -125,7 +139,6 @@ body {
   height: 460px;
   width: 380px;
   border-radius: 40px;
-
   text-align: center;
 }
 .card h2 {
@@ -135,9 +148,11 @@ body {
 .card p {
   padding: 5px 30px;
   font-size: 24px;
+  line-height: 30px;
 }
+/* My Recipies Section CSS Ends */
 
-/* Followers Section CSS */
+/* Followers Section CSS Starts*/
 .followers-container {
   width: 75%;
   margin: 200px auto;
@@ -170,7 +185,9 @@ body {
 .subscription-card p {
   font-size: 20px;
 }
+/* Followers Section CSS Ends */
 
+/* Connect Section CSS Starts */
 .connected {
   background-color: #f9faf9;
   padding: 50px;
@@ -218,6 +235,9 @@ body {
   border: 3px solid black;
   margin-top: 50px;
 }
+/* Connect Section CSS Ends */
+
+/* Footer Section CSS Starts */
 
 footer {
   background-color: black;
@@ -236,3 +256,4 @@ footer {
 .footer-section p {
   font-size: 23px;
 }
+/* Footer Section CSS Ends */
